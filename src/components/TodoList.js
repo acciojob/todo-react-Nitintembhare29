@@ -5,9 +5,9 @@ const TodoList = (props)=>{
     return(
         <ul className="list-div">
             <li className="list-item">
-                <div>{props.item}</div>
-                <div
-                onClick={()=>props.deleteitem(props.index)}><button>Delete</button></div>
+                {props.item}
+                <span
+                onClick={()=>props.deleteitem(props.index)}><button>Delete</button></span>
             </li>
         </ul>
 
