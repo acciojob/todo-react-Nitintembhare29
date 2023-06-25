@@ -1,1 +1,18 @@
 
+.center-div{
+    text-align: center;
+}
+input{
+    outline: none;
+}
+.list-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-item{
+    width: 20rem;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
